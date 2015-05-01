@@ -1,0 +1,37 @@
+/*
+CSS Name: MyNGGStyle
+Description: NextGEN Default Gallery Stylesheet
+Author: Marta Kuniej
+Version: 1.0
+
+This stylesheet is provided to allow users the ability of overriding the default styles for all display types
+*/
+
+.ngg-gallery-thumbnail img {
+  background-color: rgba(51, 51, 51, 0.8) !important;
+  border: 1px solid rgba(51, 51, 51, 0.3) !important;
+}
+.slideshowlink {
+  display: none;
+}
+.ngg-album-compactbox {
+  border: 0;
+}
+.ngg-album-compactbox:before {
+  content: none;
+}
+.ngg-album-compactbox:after {
+  content: none;
+}
+.ngg-album-compactbox .Thumb {
+  border: 0 !important;
+}
+.ngg-album-compact p {
+  display: none;
+}
+.ngg-album-compact:first-child {
+  display: none;
+  }
+  .ngg-album-compact h4 {
+    margin-left: 30px;
+  }
